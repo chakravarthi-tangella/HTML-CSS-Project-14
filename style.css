@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color: lightblue; */
+    height: 100vh;
+}
+
+.container{
+    /* background-color: bisque; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    /* background-color: cornflowerblue; */
+    width: 35%;
+    background-image: url(./images/pexels-rfstudio-3819572.jpg);
+    background-size: cover;
+}
+
+.left img{
+    /* background-color: red; */
+    margin: 60px 100px;
+    width: 120px;
+}
+
+.right{
+    /* background-color: lightgreen; */
+    width: 65%;
+    padding: 50px 50px 0 40px;
+}
+
+.header{
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50%;
+}
+
+nav{
+    width: 50%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+    position: relative;
+}
+
+nav::before{
+    content: "";
+    width: 450px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: -470px;
+    top: 12px;
+}
+
+.nav-list-items{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7f7575;
+}
+
+.nav-list-items:hover{
+    color: #000;
+}
+
+.content{
+    /* height: 80%; */
+    /* background-color: lightpink; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content-heading{
+    /* background-color: chartreuse; */
+    font-family: 'Merriweather';
+    font-size: 3.9rem;
+    width: 55%;
+    text-align: end;
+    line-height: 110px;
+    padding-left: 20px;
+}
+
+.header-1{
+    /* background-color: blue; */
+    text-align: left;
+    font-weight: 900;
+    text-shadow: 0px 0px 4px #000;
+    /* mix-blend-mode: screen; */
+    color: #fff;
+}
+
+.header-2{
+    font-weight: 900;
+    color: #444040;
+}
+
+.content-description{
+    width: 20%;
+    padding-right: 60px;
+    /* background-color: chocolate; */
+    font-family: 'Merriweather';
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #767171;
+}
+
+.content-logos{
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.header-btn{
+    /* background-color: blue; */
+    width: 40%;
+}
+
+.btn{
+    background-color: #675f5f;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 15px 60px;
+    color: #fff;
+}
+
+.footer{
+    padding-top: 33px;
+    /* background-color: darkorange; */
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.footer-left{
+    height: 90%;
+    width: 25%;
+    /* background-color: firebrick; */
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.footer-list{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.footer-list::before{
+    content: "";
+    width: 2px;
+    height: 281px;
+    background-color: #777171;
+    position: absolute;
+    top: 6px;
+    left: -9px;
+}
+
+.footer-list-items{
+    /* background-color: coral; */
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer-list-items::marker{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f111';
+    color: #777171;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-active::marker{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f111';
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-right{
+    /* background-color: darkblue; */
+    margin-left: 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.footer-heading{
+    /* background-color: green; */
+    height: 15%;
+    width: 100%;
+}
+
+.footer-heading::before{
+    color: #333030;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f10e';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.footer-description{
+    /* background-color: orange; */
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333030;
+}
+
+.footer-image{
+    /* background-color: bisque; */
+    width: 95%;
+    height: 60%;
+    background-image: url(./images/pexels-cottonbro-7974875.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+
+.footer-right::before{
+    content: "";
+    width: 1.5px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    right: -100px;
+    top: 120px;
+}
+
+.footer-right::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -114px;
+    top: 188px;
+}
