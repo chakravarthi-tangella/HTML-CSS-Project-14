@@ -1,0 +1,169 @@
+@media screen and (max-width: 1400px) {
+    .content-heading{
+        font-size: 3rem;
+    }
+
+    .content-description{
+        width: 20%;
+        font-size: 1.2rem;
+    }
+
+    .header-btn{
+        width: 50%;
+        text-align: end;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .footer{
+        margin-top: 5rem;
+        padding-top: 33px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .footer-left{
+        flex: 60%;
+        height: 90%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-list{
+        width: auto;
+    }
+
+    .footer-right{
+        margin-left: 50px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .fa-bars{
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .left{
+        background-image: none;
+    }
+
+    .right{
+        width: auto;
+        padding: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .content-heading{
+        font-size: 3.9rem;
+        line-height: 150px;
+        padding: 0px;
+    }
+
+    .content-description{
+        width: 80%;
+        padding-right: 60px;
+        text-align: end;
+    }
+
+    .content-logos{
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0px;
+    }
+
+    .header-btn{
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .footer{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .footer-left{
+        height: auto;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .footer-list{
+        width: 100%;
+        align-items: flex-start;
+        gap: 2rem;
+    } 
+
+    .footer-right{
+        margin: auto 0px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .footer-image{
+        width: auto;
+        height: 350px;
+        margin-top: 5rem;
+        background-image: url(./images/pexels-cottonbro-7974875.jpg);
+        background-size: cover;
+        background-position-y: -50px;
+    }
+
+    
+.footer-right::before{
+    right: -100px;
+    top: 0px;
+}
+
+.footer-right::after{
+    right: -114px;
+    top: 70px;
+}
+
+
+}

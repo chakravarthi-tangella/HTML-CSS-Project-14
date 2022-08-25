@@ -7,38 +7,32 @@
 }
 
 body{
-    /* background-color: lightblue; */
     height: 100vh;
 }
 
 .container{
-    /* background-color: bisque; */
     height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .left{
-    /* background-color: cornflowerblue; */
     width: 35%;
     background-image: url(./images/pexels-rfstudio-3819572.jpg);
     background-size: cover;
 }
 
 .left img{
-    /* background-color: red; */
     margin: 60px 100px;
     width: 120px;
 }
 
 .right{
-    /* background-color: lightgreen; */
     width: 65%;
     padding: 50px 50px 0 40px;
 }
 
 .header{
-    /* background-color: lightsalmon; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,7 +42,6 @@ body{
 
 nav{
     width: 50%;
-    /* background-color: chartreuse; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -59,11 +52,11 @@ nav{
 
 nav::before{
     content: "";
-    width: 450px;
+    width: 100%;
     height: 2px;
     background-color: #000;
     position: absolute;
-    left: -470px;
+    left: -100%;
     top: 12px;
 }
 
@@ -77,9 +70,11 @@ nav::before{
     color: #000;
 }
 
+.header .fa-bars{
+    display: none;
+}
+
 .content{
-    /* height: 80%; */
-    /* background-color: lightpink; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -88,7 +83,6 @@ nav::before{
 }
 
 .content-heading{
-    /* background-color: chartreuse; */
     font-family: 'Merriweather';
     font-size: 3.9rem;
     width: 55%;
@@ -98,11 +92,9 @@ nav::before{
 }
 
 .header-1{
-    /* background-color: blue; */
     text-align: left;
     font-weight: 900;
     text-shadow: 0px 0px 4px #000;
-    /* mix-blend-mode: screen; */
     color: #fff;
 }
 
@@ -114,7 +106,6 @@ nav::before{
 .content-description{
     width: 20%;
     padding-right: 60px;
-    /* background-color: chocolate; */
     font-family: 'Merriweather';
     font-size: 1.5rem;
     font-weight: 300;
@@ -124,7 +115,6 @@ nav::before{
 .content-logos{
     width: 10%;
     height: 100%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -133,7 +123,6 @@ nav::before{
 }
 
 .header-btn{
-    /* background-color: blue; */
     width: 40%;
 }
 
@@ -149,25 +138,21 @@ nav::before{
 
 .footer{
     padding-top: 33px;
-    /* background-color: darkorange; */
     height: 45%;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
 .footer-left{
     height: 90%;
     width: 25%;
-    /* background-color: firebrick; */
     display: flex;
     justify-content: center;
     margin-left: 30px;
 }
 
 .footer-list{
-    /* background-color: aqua; */
     width: 80%;
     height: 100%;
     display: flex;
@@ -180,7 +165,7 @@ nav::before{
 .footer-list::before{
     content: "";
     width: 2px;
-    height: 281px;
+    height: 95%;
     background-color: #777171;
     position: absolute;
     top: 6px;
@@ -188,7 +173,6 @@ nav::before{
 }
 
 .footer-list-items{
-    /* background-color: coral; */
     font-family: 'Poppins';
     font-size: 1.1rem;
     font-weight: 400;
@@ -213,7 +197,6 @@ nav::before{
 }
 
 .footer-right{
-    /* background-color: darkblue; */
     margin-left: 50px;
     width: 50%;
     height: 100%;
@@ -225,7 +208,6 @@ nav::before{
 
 
 .footer-heading{
-    /* background-color: green; */
     height: 15%;
     width: 100%;
 }
@@ -239,7 +221,6 @@ nav::before{
 }
 
 .footer-description{
-    /* background-color: orange; */
     font-family: 'Poppins';
     font-size: 1.1rem;
     font-weight: 500;
@@ -247,7 +228,6 @@ nav::before{
 }
 
 .footer-image{
-    /* background-color: bisque; */
     width: 95%;
     height: 60%;
     background-image: url(./images/pexels-cottonbro-7974875.jpg);
